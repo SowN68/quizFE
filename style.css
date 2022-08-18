@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Roboto:wght@100;300;500;700&display=swap');
+
+            * {
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-family: 'Roboto', sans-serif;
+                        ;
+            }
+
+            .container {
+                        display: flex;
+            }
+
+            ul {
+                        padding: 0;
+                        margin: 0;
+            }
+
+            ul li {
+                        cursor: context-menu;
+                        height: 20px;
+                        list-style: none;
+                        text-align: left;
+                        border-bottom: 1px solid gray;
+                        padding-left: 16px;
+                        padding-top: 14px;
+                        padding-bottom: 15px;
+            }
+
+            ul li:first-child {
+                        color: white;
+            }
+
+            ul li:hover {
+                        background: #5C5C5C;
+                        color: white;
+                        font-weight: 700;
+            }
+
+            .left-side {
+                        width: 150px;
+                        background-color: #333;
+                        color: #AAAAAA;
+                        font-size: 16px;
+                        line-height: 19px;
+
+            }
+
+            .right-side {
+                        width: 100%;
+            }
+
+            .right-side .right-side--container {
+                        width: 80%;
+                        margin-left: 100px;
+                        width: 80%;
+            }
+
+            .head {
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 15px;
+            }
+
+            .content {
+                        height: 210px;
+                        text-align: center;
+                        background: #EFEFEF;
+                        padding: 12px 89px;
+                        margin-bottom: 15px;
+            }
+
+            .flex-box {
+                        display: flex;
+                        gap: 15px;
+
+            }
+
+            .box {
+                        width: 33%;
+            }
+
+            .box .image svg {
+                        float: left;
+            }
+
+
+            .footer {
+                        border-top: 1px solid gray;
+            }
+
+            .footer p {
+                        margin-left: 40px;
+
+            }
