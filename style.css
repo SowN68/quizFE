@@ -54,11 +54,12 @@
                         margin-left: 100px;
                         width: 80%;
             }
-
+            .right-side .right-side--container .right-side--item{
+                        margin-bottom: 25px;
+            }
             .head {
                         display: flex;
                         justify-content: center;
-                        margin-bottom: 15px;
             }
 
             .content {
@@ -66,7 +67,6 @@
                         text-align: center;
                         background: #EFEFEF;
                         padding: 12px 89px;
-                        margin-bottom: 15px;
             }
 
             .flex-box {
